@@ -1,0 +1,277 @@
+@charset "iso-8859-1";
+body {
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #601010; /*dk green*/;
+	color: #000000; /*black*/
+}
+/*===============indicates no border around any image ============*/
+body img {
+	border: 0px;
+	text-decoration: none;
+}
+/* ============ margins auto center the container on the page ==========*/
+#container {
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	background-color: #ffffff;
+	width: 95%;
+}
+/*=================== styles for top banner ========================*/
+#banner {
+	background-position: center;
+	padding: 10px;
+	background-color: #FFFFF;
+	background-image: url('logo.jpg');
+	height: 170px;
+	background-repeat: no-repeat;
+	color: #000000;
+}
+/*=================== styles for top menu ======================*/
+#topmenu {
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: .90em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	color: inherit;
+	border-top: 2px solid #242F24;
+	border-bottom: 2px solid #242F24;
+}
+#topmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#topmenu li {
+	display: inline;
+	list-style-type: none;
+	padding: 0px;
+	padding-right: 1em;
+}
+/*==============all site links==============*/
+a:link {
+	font-weight: bold;
+	color: #004145;
+	background: transparent;
+	text-decoration: underline;
+}
+a:visited {
+	font-weight: bold;
+	color: #000000;
+	background: transparent;
+	padding: 0px;
+	text-decoration: underline;
+}
+a:hover {
+	font-weight: bold;
+	text-decoration : none;
+	background: #C8DEC8;
+	color: #ffffff;}
+a:active {
+	font-weight: bold;
+	text-decoration : underline;
+	background: #BFDFE2;
+	color: #000000;
+}
+/*====================== styles for main content area =========================*/
+#content {
+	margin-right: 240px;
+	margin-left: 240px;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+}
+
+/*===========content area list items==============*/
+#content ul li {
+	list-style-image: url('images/green-bullet-bg.gif');
+	margin: 2px;
+	padding: 2px;
+}
+#content li li {
+	list-style-image: url('images/green-bullet-sm.gif');
+	padding: 2px 0;
+}
+
+/* *****************************************************
+Navigation Bar - Right hand side 
+**************************************************** */
+#rightnav {
+	color: #000;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	border: 2px solid #242F24;
+	float: right;
+	background-color: #ffffff;
+	width: 200px;
+}
+/* *****************************************************
+Navigation Bar - Left hand side 
+**************************************************** */
+
+#leftnav {
+	color: #000;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	border: 2px solid #242F24;
+	float: left;
+	background-color: #ffffff;
+	width: 200px;
+}
+#leftnav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 4px;
+}
+#leftnav li {
+	list-style: none;
+	padding: 2px 0;
+}
+#leftnav ul li {
+	text-decoration: none;
+	margin-top: 2px;
+}
+#leftnav ul ul li {
+	padding: 3px 0 3px 5px;
+	font-size: 80%;
+	font-weight: normal;
+}
+
+/*============== Styles for footer ===================*/
+#footer {
+	border-top: 2px solid #242F24;
+	clear: both;
+	padding: 5px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+}
+#footer p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/*================== general styles =================*/
+hr {
+	width: 50%;
+	text-align: center;
+	background-color: #004145;
+	height: 5px;
+}
+/* =================Styles for heading tags =============== */
+h1, h2, h3, h4 {
+	color: #000000; /*dk green*/;
+	background-color: inherit;
+}
+h1 {
+	padding: 2px 0px 2px 5px;
+	font-size: 1.5em;
+	background: #CCCC99; /*lt green*/
+}
+h2 {
+	font-size: 1em;
+}
+h3 {
+	font-size: .9em;
+}
+h4 {
+	font-size: .9em;
+}
+/*================used to center anything==============*/
+.center {
+	text-align: center;
+}
+/* ============floats images to right or left ============*/
+.imgrgt {
+	float: right;
+	padding: 7px;
+}
+.imglft {
+	float: left;
+	padding: 7px;
+}
+
+.smtxt {
+	font-size:small;
+}
+
+.messagebox a:link {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.messagebox a:visited {
+	background: #CCCC99;
+	color: #1534B3;
+	font-weight: bold;
+	text-decoration: none;
+}
+.messagebox a:hover {
+	background: #CCCC99;
+	color: #C60029;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.messagebox a:active {
+	background: #CCCC99;
+	color: #1534B3;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* left-hand menu - colored box */
+.messagebox {
+	border: #2C5629 2px solid;
+	margin: 15px 0px 3px 0px;
+	padding: 5px;
+	background: #CCCC99;
+	color: #000000;
+	font-size: .9em;
+}
+.messageboxheading {
+	margin: 0px;
+	background: #601010;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	font-size: medium;
+}
+.messageboxheading2{
+	margin: 0px;
+	background: #CCCC99;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	padding: 5px;
+	font-size: medium;
+}
+#testId
+{
+	font-size:12px;
+	color:blue;
+	font-family:consolas;
+}
+table,td,th
+{
+border:2px solid black;
+}
+table
+{
+width:100%;
+}
+th
+{
+height:50px;
+}
+tr
+{
+border: 0;
+}
+td
+{
+border: 0;
+}
